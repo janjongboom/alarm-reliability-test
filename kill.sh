@@ -1,0 +1,1 @@
+adb shell kill $(adb shell b2g-ps | grep Alarm | awk '{print $5}')
